@@ -1,0 +1,44 @@
+#BigSight-LandingPage-Section3 {
+    width: 100vw;
+    height: 338px;
+    background-color: #484848;
+    color: white;
+}
+
+.BigSight-LandingPage-Section3-Title {
+    text-align: center;
+    padding-top: 51px;
+    font-size: 40px;
+    font-family: poppins-700;
+}
+
+.BigSight-LandingPage-Section3-Desc {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+    font-family: poppins-400;
+}
+
+.BigSight-LandingPage-Section3-Button-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.BigSight-LandingPage-Section3-Button {
+    width: 321px;
+    height: 47px;
+    color: white;
+    background: #d23d3d;
+    border-radius: 65px;
+    border: 1px solid transparent;
+    font-family: poppins-700;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigSight-LandingPage-Section3-Button:hover {
+    background: transparent;
+    border: 1px solid white;
+}

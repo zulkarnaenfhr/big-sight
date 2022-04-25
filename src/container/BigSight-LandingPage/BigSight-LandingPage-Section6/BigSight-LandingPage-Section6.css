@@ -1,0 +1,86 @@
+#BigSight-LandingPage-Section6 {
+    height: 535px;
+    font-family: "Poppins", sans-serif;
+}
+
+.BigSight-LandingPage-Section6-title {
+    font-size: 40px;
+    font-family: poppins-700;
+    margin-top: 110px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.BigSight-LandingPage-Section6-Content-Logo-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.BigSight-LandingPage-Section6-andMore {
+    text-align: center;
+    font-family: poppins-700;
+    font-size: 30px;
+    position: relative;
+    top: 45px;
+    right: 3px;
+}
+
+.BigSight-LandingPage-Section6-logo-row1 {
+    margin-top: 41px;
+    margin-left: -61px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.BigSight-LandingPage-Section6-logo-row1 > .Telkom {
+    width: 184px;
+    height: 142px;
+}
+
+.BigSight-LandingPage-Section6-logo-row1 > .Kemenkes {
+    width: 187px;
+    height: 87px;
+    position: relative;
+    left: 41px;
+}
+
+.BigSight-LandingPage-Section6-logo-row1 > .SekNatNegara {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    left: 58px;
+    bottom: 10px;
+}
+
+.BigSight-LandingPage-Section6-logo-row1 > .Pertamina {
+    width: 266px;
+    height: 62px;
+    position: relative;
+    left: 74px;
+    bottom: 12px;
+}
+
+.BigSight-LandingPage-Section6-logo-row2 {
+    margin-top: -10px;
+    margin-left: -31px;
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+.BigSight-LandingPage-Section6-logo-row2 > .Dishub {
+    width: 84px;
+    height: 97px;
+}
+
+.BigSight-LandingPage-Section6-logo-row2 > .AHM {
+    width: 203px;
+    height: 105px;
+    position: relative;
+    left: 37px;
+    bottom: 17px;
+}

@@ -6,7 +6,7 @@ class Beforefooterbigsight extends Component {
         return (
             <div id="BigSight-LandingPage-Section8">
                 <div className="BigSight-LandingPage-Section8-Parent-Content-Container">
-                    <img className="BigSight-LandingPage-Section8-BigSight-Logo" data-aos="fade-up" data-aos-offset="100" src={require("../../../../src/Smart-Platform/LogoBigSight.png")} alt="Logo-Navbar" border="0"></img>
+                    <img className="BigSight-LandingPage-Section8-BigSight-Logo" data-aos="fade-up" data-aos-offset="100" src={require("../../src/Big-Sight/LogoBigSight.png")} alt="Logo-Navbar" border="0"></img>
                     <div className="row BigSight-LandingPage-Section8-Content-Container">
                         <div className="col-4 BigSight-LandingPage-Section8-Content-Left">
                             <div>
@@ -41,7 +41,7 @@ class Beforefooterbigsight extends Component {
                                 </p>
                             </div>
                         </div>
-                        <img data-aos="fade-up" data-aos-offset="100" className="BigSight-LandingPage-Section8-BigSight-RightMid" src={require("../../../../src/Smart-Platform/Landing Page/Section-8-LogoRight.png")} alt="" />
+                        <img data-aos="fade-up" data-aos-offset="100" className="BigSight-LandingPage-Section8-BigSight-RightMid" src={require("../../src/Big-Sight/Landing Page/Section-8-LogoRight.png")} alt="" />
                     </div>
                 </div>
             </div>

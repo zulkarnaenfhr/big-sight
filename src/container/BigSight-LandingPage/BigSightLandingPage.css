@@ -1,0 +1,14 @@
+.BigSight-LandingPage-navbar-container {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    z-index: 2;
+}
+
+.BigSight-LandingPage-content-container {
+    margin-top: 95px;
+}
+
+.BigSight-LandingPage-content-container-section-2-3 {
+    box-shadow: 24px 8px 24px 16px rgba(0, 0, 0, 0.25);
+}

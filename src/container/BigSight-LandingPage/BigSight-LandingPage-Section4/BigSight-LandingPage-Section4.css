@@ -1,0 +1,120 @@
+#BigSight-LandingPage-Section4 {
+    width: 100vw;
+    height: 1180px;
+    background-color: white;
+    margin-top: 60px;
+}
+
+.BigSight-LandingPage-Section4-Background {
+    position: absolute;
+    width: 1080px;
+    height: 945px;
+    left: 409px;
+    margin-top: 40px;
+}
+
+.BigSight-LandingPage-Section4-Scroll-Container {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 695px;
+    height: 1105px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 6px 3px rgba(207, 207, 207, 0.25);
+    border-radius: 5px;
+    margin-left: 136px;
+    margin-top: 20px;
+}
+
+.BigSight-LandingPage-Section4-Scroll-Header-Container {
+    height: 205px;
+}
+
+.BigSight-LandingPage-Section4-Scroll-Header-Title {
+    position: absolute;
+    width: 488px;
+    height: 120px;
+    left: 64px;
+    top: 42px;
+    font-style: normal;
+    font-family: poppins-700;
+    font-size: 35px;
+    line-height: 115%;
+    text-transform: capitalize;
+    color: #484848;
+    letter-spacing: 0.5px;
+}
+
+.BigSight-LandingPage-Section4-Scroll-Header-Title > span {
+    color: #d23d3d;
+}
+
+.BigSight-LandingPage-Section4-Scroll-Content-Container {
+    height: 777px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.BigSight-LandingPage-Section4-Scroll-Vector {
+    margin-top: 64px;
+    margin-left: 332px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigSight-LandingPage-Section4-Background {
+        left: 22vw;
+    }
+    .BigSight-LandingPage-Section4-Background {
+        z-index: 0;
+    }
+    .BigSight-LandingPage-Section4-Scroll-Container-Responsive {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0.9);
+    }
+    .BigSight-LandingPage-Section4-Background {
+        z-index: 0;
+        transform: scale(0.8);
+        left: 23vw;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .BigSight-LandingPage-Section4-Scroll-Container-Responsive {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0.83);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .BigSight-LandingPage-Section4-Background {
+        left: 10vw;
+    }
+    .BigSight-LandingPage-Section4-Background {
+        z-index: 0;
+        transform: scale(0.75);
+        left: 18vw;
+    }
+    .BigSight-LandingPage-Section4-Scroll-Container-Responsive {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0.77);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .BigSight-LandingPage-Section4-Scroll-Container-Responsive {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0.79);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .BigSight-LandingPage-Section4-Scroll-Container-Responsive {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0.765);
+    }
+}
