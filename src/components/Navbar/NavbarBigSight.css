@@ -139,9 +139,12 @@
     margin-top: -8.5px;
 }
 
+.BigSightNavbarButtonDemoApps-Container {
+    text-decoration: none;
+}
+
 .BigSightNavbarButtonDemoApps {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 

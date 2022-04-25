@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 class Navbarbigsight extends Component {
     render() {
         return (
-            <nav data-aos="fade-up" data-aos-offset="200" id="navbarBigSight" className="navbar navbarBigSight navbar-expand-lg navbar-light">
+            <nav data-aos="fade-in" data-aos-offset="200" id="navbarBigSight" className="navbar navbarBigSight navbar-expand-lg navbar-light">
                 <div className="container-fluid">
-                    <a className="BigSightNavbarLogo-Container" href="/smart-platform">
+                    <a className="BigSightNavbarLogo-Container" href="/big-sight">
                         <img className="BigSightNavbarLogo" src={require("../../src/Big-Sight/LogoBigSight.png")} alt="" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,7 +92,7 @@ class Navbarbigsight extends Component {
                                 <Link
                                     className="BigSightNavbarMenu"
                                     to={{
-                                        pathname: `/smart-platform/solution`,
+                                        pathname: `/big-sight/solution`,
                                     }}
                                 >
                                     <p>Solution</p>
@@ -126,7 +126,7 @@ class Navbarbigsight extends Component {
                                             <Link
                                                 className="BigSightDropdown-Menu-Recources"
                                                 to={{
-                                                    pathname: `/smart-platform/FAQ`,
+                                                    pathname: `/big-sight/FAQ`,
                                                 }}
                                             >
                                                 <p>FAQ</p>
@@ -182,11 +182,18 @@ class Navbarbigsight extends Component {
                                     </div>
                                 </ul>
                             </li>
-                            <button className="BigSightNavbarButtonDemoApps">DEMO APPS</button>
                             <Link
-                                className="BigSightNavbarButtonContactUs"
+                                className="BigSightNavbarButtonDemoApps-Container"
                                 to={{
-                                    pathname: `/smart-platform/contactus`,
+                                    pathname: `notset`,
+                                }}
+                            >
+                                <button className="BigSightNavbarButtonDemoApps">DEMO APPS</button>
+                            </Link>
+                            <Link
+                                className="BigSightNavbarButtonContactUs-Container"
+                                to={{
+                                    pathname: `/big-sight/contactus`,
                                 }}
                             >
                                 <button className="BigSightNavbarButtonContactUs">CONTACT US</button>

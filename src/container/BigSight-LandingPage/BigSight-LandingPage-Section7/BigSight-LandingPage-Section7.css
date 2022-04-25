@@ -45,6 +45,13 @@
     line-height: 140%;
     letter-spacing: 0.005em;
     color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigSight-LandingPage-Section7-Button:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
 }
 
 .BigSight-LandingPage-Section7-Background1 {
