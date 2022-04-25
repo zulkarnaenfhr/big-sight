@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/big-sight/static/css/main.073c9b0a.css",
+    "main.js": "/big-sight/static/js/main.72e49207.js",
+    "static/js/787.00964e9c.chunk.js": "/big-sight/static/js/787.00964e9c.chunk.js",
+    "static/media/logo.svg": "/big-sight/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/big-sight/index.html",
+    "main.073c9b0a.css.map": "/big-sight/static/css/main.073c9b0a.css.map",
+    "main.72e49207.js.map": "/big-sight/static/js/main.72e49207.js.map",
+    "787.00964e9c.chunk.js.map": "/big-sight/static/js/787.00964e9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.72e49207.js"
+  ]
+}
