@@ -8,7 +8,7 @@ class Navbarbigsight extends Component {
             <nav data-aos="fade-up" data-aos-offset="200" id="navbarBigSight" className="navbar navbarBigSight navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <a className="BigSightNavbarLogo-Container" href="/smart-platform">
-                        <img className="BigSightNavbarLogo" src={require("../../../src/Smart-Platform/LogoBigSight.png")} alt="" />
+                        <img className="BigSightNavbarLogo" src={require("../../src/Big-Sight/LogoBigSight.png")} alt="" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
