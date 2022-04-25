@@ -1,0 +1,269 @@
+#navbarBigSight {
+    height: 94px;
+    width: 100vw;
+    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.11);
+    display: flex;
+    background-color: white;
+}
+
+.BigSightNavbarLogo {
+    width: 148px;
+    height: 87px;
+    margin-left: 164px;
+    margin-top: 9px;
+}
+
+.BigSightnavbarMenu-container {
+    margin-left: 174px;
+    height: 94px;
+    align-items: center;
+    display: flex;
+}
+
+.BigSightNavbarMenu {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: poppins-500;
+}
+
+.BigSightNavbarMenu:hover {
+    color: #d23d3d;
+}
+
+.BigSightNavbarDropdownProduct-Container {
+    height: 110px;
+    width: 293px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 15px 16px;
+}
+
+.BigSightDropdown-Menu-Product {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: poppins-500;
+}
+
+.BigSightDropdown-Menu-Product:hover {
+    color: #d23d3d;
+}
+
+.BigSightNavbarDropdownProduct-row2 {
+    margin-top: -7.5px;
+}
+
+.BigSightNavbarDropdownProduct-row3 {
+    margin-top: -8px;
+}
+
+.BigSightNavbarMenuSolution {
+    margin-top: 20px;
+    margin-left: 47px;
+}
+
+.BigSightNavbarMenuPartnership {
+    margin-left: 34px;
+    margin-top: 20px;
+}
+
+.BigSightNavbarMenuResources {
+    margin-left: 33px;
+}
+
+.BigSightNavbarDropdownResources-Container {
+    padding: 15px 16px;
+    width: 152px;
+    height: 103px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.BigSightDropdown-Menu-Recources {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: poppins-500;
+}
+
+.BigSightDropdown-Menu-Recources:hover {
+    color: #d23d3d;
+}
+
+.BigSightDropdown-Menu-Recources-row2 {
+    margin-top: -8.5px;
+}
+
+.BigSightDropdown-Menu-Recources-row3 {
+    margin-top: -8.5px;
+}
+
+.BigSightNavbarMenuCompany {
+    margin-left: 47px;
+}
+
+.BigSightNavbarDropdownCompany-Container {
+    padding: 15px 16px;
+    width: 152px;
+    height: 103px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.BigSightDropdown-Menu-Company {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: poppins-500;
+}
+
+.BigSightDropdown-Menu-Company:hover {
+    color: #d23d3d;
+}
+
+.BigSightDropdown-Menu-Company-row2 {
+    margin-top: -8.5px;
+}
+
+.BigSightDropdown-Menu-Company-row3 {
+    margin-top: -8.5px;
+}
+
+.BigSightNavbarButtonDemoApps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 122px;
+    height: 35px;
+    margin-left: 63px;
+
+    background-color: transparent;
+
+    border: 1px solid #d23d3d;
+    color: #d23d3d;
+    box-sizing: border-box;
+    border-radius: 17px;
+
+    font-size: 13px;
+    font-family: poppins-500;
+    transition: all 0.3s ease-in-out;
+}
+
+.BigSightNavbarButtonDemoApps:hover {
+    background-color: #d23d3d;
+    color: white;
+}
+
+.BigSightNavbarButtonContactUs {
+    width: 122px;
+    height: 37.75px;
+
+    margin-left: 25px;
+    background: #d23d3d;
+    border-radius: 17px;
+    color: white;
+
+    font-size: 13px;
+    font-family: poppins-500;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.BigSightNavbarButtonContactUs:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigSightNavbarLogo {
+        margin-left: 105px;
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .BigSightNavbarLogo {
+        margin-left: 32px;
+    }
+
+    .BigSightnavbarMenu-container {
+        margin-left: 80px;
+    }
+
+    .BigSightNavbarButtonDemoApps {
+        margin-left: 103px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .BigSightNavbarLogo {
+        margin-left: 55px;
+        transform: scale(0.8);
+    }
+
+    .BigSightnavbarMenu-container {
+        margin-left: 20px;
+    }
+
+    .BigSightNavbarButtonDemoApps {
+        margin-left: 85px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .BigSightNavbarLogo {
+        margin-left: 0px;
+    }
+
+    .BigSightnavbarMenu-container {
+        margin-left: 10px;
+    }
+
+    .BigSightNavbarMenuSolution {
+        margin-left: 20px;
+    }
+
+    .BigSightNavbarMenuPartnership {
+        margin-left: 20px;
+    }
+
+    .BigSightNavbarMenuResources {
+        margin-left: 20px;
+    }
+
+    .BigSightNavbarMenuCompany {
+        margin-left: 20px;
+    }
+
+    .BigSightNavbarButtonDemoApps {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .BigSightNavbarLogo {
+        margin-left: -20px;
+        transform: scale(0.85);
+    }
+
+    .BigSightnavbarMenu-container {
+        margin-left: 0px;
+    }
+
+    .BigSightNavbarButtonDemoApps {
+        margin-left: 25px;
+    }
+}
