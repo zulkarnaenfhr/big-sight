@@ -35,17 +35,21 @@ class BigsightFaqSection1 extends Component {
         return (
             <div id="BigSight-FAQ-Section1">
                 <div className="row BigSight-FAQ-Section1-Content-Container">
-                    <div className="col-3" data-aos="fade-up" data-aos-offset="200" data-aos-delay="300">
+                    <div className="col-3 BigSight-FAQ-Section1-Content-Container-Left" data-aos="fade-up" data-aos-offset="200" data-aos-delay="300">
                         <h1 className="BigSight-FAQ-Section1-Title">FAQ</h1>
                     </div>
-                    <div className="col-9" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
+                    <div className="col-9 BigSight-FAQ-Section1-Content-Container-Right" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
                         <div className="row">
                             <div className="BigSight-FAQ-Section1-Collapse-Container">
                                 <button onClick={this.handleFAQClick} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1" name="faq1">
                                     <div className="row">
                                         <div className="col-11">Apa Itu Smart Platform</div>
                                         <div className="col-1">
-                                            <img className={this.state.faq1 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq1 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>
@@ -68,7 +72,11 @@ class BigsightFaqSection1 extends Component {
                                     <div className="row">
                                         <div className="col-11">Apa saja fiturnya</div>
                                         <div className="col-1">
-                                            <img className={this.state.faq2 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq2 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>
@@ -88,7 +96,11 @@ class BigsightFaqSection1 extends Component {
                                     <div className="row">
                                         <div className="col-11">Mengapa harus menggunakan produk ini</div>
                                         <div className="col-1">
-                                            <img className={this.state.faq3 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq3 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>
@@ -108,7 +120,11 @@ class BigsightFaqSection1 extends Component {
                                     <div className="row">
                                         <div className="col-11">apa yang menjadi kelebihan produk telkom </div>
                                         <div className="col-1">
-                                            <img className={this.state.faq4 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"} src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")} alt="" />
+                                            <img
+                                                className={this.state.faq4 === false ? "BigSight-FAQ-Section1-VectorSilang" : "BigSight-FAQ-Section1-VectorSilangRotate"}
+                                                src={require("../../../src/Big-Sight/FAQ/Vector Silang.png")}
+                                                alt=""
+                                            />
                                         </div>
                                     </div>{" "}
                                 </button>
