@@ -22,8 +22,8 @@ class BigsightLandingpageSection7 extends Component {
                     </div>
                 </div>{" "}
                 <div className="BigSight-LandingPage-Section7-Background-Container">
-                    <img className="BigSight-LandingPage-Section7-Background1" src={require("../../../src/Big-Sight/Landing Page/Section-7-Background.png")} alt="" />
-                    <div className="BigSight-LandingPage-Section7-Background2-Container">
+                    <img data-aos="fade-left" data-aos-offset="100" data-aos-delay="0" className="BigSight-LandingPage-Section7-Background1" src={require("../../../src/Big-Sight/Landing Page/Section-7-Background.png")} alt="" />
+                    <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="200" className="BigSight-LandingPage-Section7-Background2-Container">
                         <img className="BigSight-LandingPage-Section7-Background2" src={require("../../../src/Big-Sight/Landing Page/Section-7-Background2.png")} alt="" />
                     </div>
                 </div>

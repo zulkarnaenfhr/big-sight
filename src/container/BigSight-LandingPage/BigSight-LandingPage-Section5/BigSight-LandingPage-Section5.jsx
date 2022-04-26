@@ -41,10 +41,10 @@ class BigsightLandingpageSection5 extends Component {
                                 <div>
                                     <img loading="lazy" className="BigSight-LandingPage-Section5-Content-CostSaving3-Logo" src={require("../../../src/Big-Sight/Landing Page/Section-5-Right.png")} alt="" border="0"></img>{" "}
                                     <div className="div3">
-                                        <p className="BigSight-LandingPage-Section5-Content-CostSaving1-Title" data-aos="fade-up" data-aos-offset="0">
+                                        <p className="BigSight-LandingPage-Section5-Content-CostSaving1-Title" data-aos="fade-up" data-aos-offset="100">
                                             Cost-saving practices
                                         </p>
-                                        <h3 className="BigSight-LandingPage-Section5-Content-CostSaving1-Desc" data-aos="fade-up" data-aos-offset="0">
+                                        <h3 className="BigSight-LandingPage-Section5-Content-CostSaving1-Desc" data-aos="fade-up" data-aos-offset="100">
                                             Meningkatkan efisiensi biaya operasional untuk kebutuhan bisnis anda.
                                         </h3>
                                     </div>

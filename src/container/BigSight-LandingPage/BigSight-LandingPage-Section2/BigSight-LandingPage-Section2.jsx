@@ -15,8 +15,8 @@ class BigsightLandingpageSection2 extends Component {
                             EXPLORE OUR PRODUCT
                         </h2>
                     </div>
-                    <div className="BigSight-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="100">
-                        <div className="col-4">
+                    <div className="BigSight-LandingPage-Section2-Card-Container row">
+                        <div className="col-4" data-aos="fade-right" data-aos-offset="100">
                             <CardBigSightLandingPage
                                 logoImg={require("../../../src/Big-Sight/Landing Page/Section-1-Legal-Analytic.png")}
                                 marginTopDesc={"49px"}
@@ -29,7 +29,7 @@ class BigsightLandingpageSection2 extends Component {
                                 linkProduct={`notSet`}
                             />
                         </div>
-                        <div className="col-4">
+                        <div className="col-4" data-aos="fade-up" data-aos-offset="100">
                             <CardBigSightLandingPage
                                 logoImg={require("../../../src/Big-Sight/Landing Page/Section-1-Big-View.png")}
                                 marginTopDesc={"38px"}
@@ -43,7 +43,7 @@ class BigsightLandingpageSection2 extends Component {
                             />{" "}
                         </div>
 
-                        <div className="col-4">
+                        <div className="col-4" data-aos="fade-left" data-aos-offset="100">
                             <CardBigSightLandingPage
                                 logoImg={require("../../../src/Big-Sight/Landing Page/Section-1-Picaso.png")}
                                 marginTopDesc={"26px"}
@@ -58,7 +58,7 @@ class BigsightLandingpageSection2 extends Component {
                         </div>
                     </div>
                     <div className="BigSight-LandingPage-Section2-Card-Container row" data-aos="fade-up" data-aos-offset="100">
-                        <div className="col-4">
+                        <div className="col-4" data-aos="fade-right" data-aos-offset="100">
                             <CardBigSightLandingPage
                                 logoImg={require("../../../src/Big-Sight/Landing Page/Section-1-Big-Score.png")}
                                 marginTopDesc={"21px"}
@@ -71,7 +71,7 @@ class BigsightLandingpageSection2 extends Component {
                                 linkProduct={`notset`}
                             />
                         </div>
-                        <div className="col-4">
+                        <div className="col-4" data-aos="fade-up" data-aos-offset="100">
                             <CardBigSightLandingPage
                                 logoImg={require("../../../src/Big-Sight/Landing Page/Section-1-Big-Box.png")}
                                 marginTopDesc={"25px"}
@@ -84,7 +84,7 @@ class BigsightLandingpageSection2 extends Component {
                                 linkProduct={`notSet`}
                             />{" "}
                         </div>
-                        <div className="col-4">
+                        <div className="col-4" data-aos="fade-left" data-aos-offset="100">
                             <CardBigSightLandingPage
                                 logoImg={require("../../../src/Big-Sight/Landing Page/Section-1-SmartEye.png")}
                                 marginTopDesc={"29px"}
