@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/big-sight/static/css/main.a773f34a.css",
-    "main.js": "/big-sight/static/js/main.2ec0763b.js",
+    "main.css": "/big-sight/static/css/main.08329584.css",
+    "main.js": "/big-sight/static/js/main.57d63c67.js",
     "static/js/787.00964e9c.chunk.js": "/big-sight/static/js/787.00964e9c.chunk.js",
     "static/media/Smart-Platform-Solution-Section1-Background.png": "/big-sight/static/media/Smart-Platform-Solution-Section1-Background.5b8ad829b187b51b1e1d.png",
     "static/media/Section-1-Background.png": "/big-sight/static/media/Section-1-Background.66879c677e28c91b7be4.png",
@@ -35,12 +35,12 @@
     "static/media/Section-4-Data-Integration.png": "/big-sight/static/media/Section-4-Data-Integration.b4fc386cbe3bdba693f7.png",
     "static/media/Section-4-Document-Detection.png": "/big-sight/static/media/Section-4-Document-Detection.4afb7074032e35bb6355.png",
     "index.html": "/big-sight/index.html",
-    "main.a773f34a.css.map": "/big-sight/static/css/main.a773f34a.css.map",
-    "main.2ec0763b.js.map": "/big-sight/static/js/main.2ec0763b.js.map",
+    "main.08329584.css.map": "/big-sight/static/css/main.08329584.css.map",
+    "main.57d63c67.js.map": "/big-sight/static/js/main.57d63c67.js.map",
     "787.00964e9c.chunk.js.map": "/big-sight/static/js/787.00964e9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a773f34a.css",
-    "static/js/main.2ec0763b.js"
+    "static/css/main.08329584.css",
+    "static/js/main.57d63c67.js"
   ]
 }
