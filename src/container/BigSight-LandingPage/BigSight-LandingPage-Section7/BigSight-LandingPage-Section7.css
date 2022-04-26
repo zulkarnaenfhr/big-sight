@@ -106,6 +106,25 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigSight-LandingPage-Section7-Title {
+        font-size: 36px;
+    }
+    .BigSight-LandingPage-Section7-Button-Container {
+        top: 220px;
+    }
+    .BigSight-LandingPage-Section7-Background1 {
+        width: calc(0.8 * 794.42px);
+    }
+    .BigSight-LandingPage-Section7-Background2-Container {
+        width: calc(0.8 * 794.42px);
+        /* border: 1px solid blue; */
+    }
+    .BigSight-LandingPage-Section7-Background2 {
+        width: calc(0.8 * 238.24px);
+        height: calc(0.8 * 381.62px);
+        margin-top: 92px;
+        margin-left: 44px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
