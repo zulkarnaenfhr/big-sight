@@ -18,7 +18,7 @@ class BigsightSolutionSection2 extends Component {
         return (
             <div id="BigSight-Solution-Section2" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
                 <div className="row BigSight-Solution-Section2-Content-Container">
-                    <div className="col-4">
+                    <div className="col-4 BigSight-Solution-Section2-Content-Left">
                         <button
                             name="SmartCityGovernance"
                             onClick={this.handleButtonStatusWatch}
@@ -31,7 +31,9 @@ class BigsightSolutionSection2 extends Component {
                             name="Facility"
                             onClick={this.handleButtonStatusWatch}
                             className={
-                                this.state.statusWatch === "Facility" ? "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Button-Active BigSight-Solution-Section2-Secondrow" : "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Secondrow"
+                                this.state.statusWatch === "Facility"
+                                    ? "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Button-Active BigSight-Solution-Section2-Secondrow"
+                                    : "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Secondrow"
                             }
                         >
                             Facility
@@ -41,7 +43,9 @@ class BigsightSolutionSection2 extends Component {
                             name="Transport"
                             onClick={this.handleButtonStatusWatch}
                             className={
-                                this.state.statusWatch === "Transport" ? "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Button-Active BigSight-Solution-Section2-Secondrow" : "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Secondrow"
+                                this.state.statusWatch === "Transport"
+                                    ? "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Button-Active BigSight-Solution-Section2-Secondrow"
+                                    : "BigSight-Solution-Section2-Button BigSight-Solution-Section2-Secondrow"
                             }
                         >
                             Transport
@@ -62,7 +66,7 @@ class BigsightSolutionSection2 extends Component {
                     <div className="col-8">
                         {this.state.statusWatch === "SmartCityGovernance" ? (
                             <div className="row BigSight-Solution-Section2-RightSection">
-                                <div className="col-6">
+                                <div className="col-6 BigSight-Solution-Section2-RightSection-Left">
                                     <div>
                                         <img className="BigSight-Solution-Section2-RightSection-Logo-FaceDetection" src={require("../../../src/Big-Sight/Landing Page/Section-4-Face-Detection.png")} alt="" />
                                         <p className="BigSight-Solution-Section2-RightSection-Title">Face Detection</p>
@@ -71,7 +75,7 @@ class BigsightSolutionSection2 extends Component {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="col-6 BigSight-Solution-Section2-RightSection-Col62">
+                                <div className="col-6 BigSight-Solution-Section2-RightSection-Right-DocumentIntegration">
                                     <div>
                                         <img className="BigSight-Solution-Section2-RightSection-Logo-DocumentDetection" src={require("../../../src/Big-Sight/Landing Page/Section-4-Document-Detection.png")} alt="" />
                                         <p className="BigSight-Solution-Section2-RightSection-Title">Document Detection</p>
@@ -83,7 +87,7 @@ class BigsightSolutionSection2 extends Component {
                             </div>
                         ) : this.state.statusWatch === "Facility" ? (
                             <div className="row BigSight-Solution-Section2-RightSection">
-                                <div className="col-6">
+                                <div className="col-6 BigSight-Solution-Section2-RightSection-Left">
                                     <div>
                                         <img className="BigSight-Solution-Section2-RightSection-Logo-FaceDetection" src={require("../../../src/Big-Sight/Landing Page/Section-4-Face-Detection.png")} alt="" />
                                         <p className="BigSight-Solution-Section2-RightSection-Title">Face Detection</p>
@@ -92,7 +96,7 @@ class BigsightSolutionSection2 extends Component {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="col-6 BigSight-Solution-Section2-RightSection-Col62">
+                                <div className="col-6 BigSight-Solution-Section2-RightSection-Right">
                                     <div>
                                         <img className="BigSight-Solution-Section2-RightSection-Logo-DataIntegration" src={require("../../../src/Big-Sight/Landing Page/Section-4-Data-Integration.png")} alt="" />
                                         <p className="BigSight-Solution-Section2-RightSection-Title">Data Integration</p>
