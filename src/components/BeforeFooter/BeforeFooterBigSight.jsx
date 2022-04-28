@@ -5,7 +5,7 @@ class Beforefooterbigsight extends Component {
     render() {
         return (
             <div id="BigSight-LandingPage-Section8">
-                <div className="BigSight-LandingPage-Section8-Parent-Content-Container">
+                <div className="BigSight-LandingPage-Section8-Parent-Content-Container"  >
                     <img className="BigSight-LandingPage-Section8-BigSight-Logo" data-aos="fade-up" data-aos-offset="100" src={require("../../src/Big-Sight/LogoBigSight.png")} alt="Logo-Navbar" border="0"></img>
                     <div className="row BigSight-LandingPage-Section8-Content-Container">
                         <div className="col-4 BigSight-LandingPage-Section8-Content-Left">
